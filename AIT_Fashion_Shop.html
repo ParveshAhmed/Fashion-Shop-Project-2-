@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIT Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style2.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Yellowtail&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap');
+  </style>
+</head>
+
+<body>
+
+  <!-- header 1 starts -->
+
+  <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+
+      <div class="navbar-nav d-flex flex-row">
+        <img class="ms-3" src="./Assets/Icons/header_flag1.png" alt="USA Flag">
+        <select class="bg-dark text-white ms-3 border border-0" aria-label="Default select example">
+          <option selected>IND</option>
+          <option value="2">PAK</option>
+          <option value="3">AUS</option>
+        </select>
+        <div class="ms-3 text-white"><span>+91-9003420888</span></div>
+      </div>
+
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="ms-auto nav d-flex flex-lg-row flex-md-column flex-sm-column flex-column justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">My Account</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#">Wish List</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#">Shopping</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#">Cart</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#">Checkout</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Header 2 starts-->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+      <!-- Company Name -->
+      <a class="navbar-brand" href="#">
+        <img class="w-75 h-75" src="./Assets/Company Logo/Logo.png" alt="">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse ms-lg-5 row" id="navbarSupportedContent2">
+        <ul
+          class="navbar-nav me-auto mb-2 mb-lg-0 ms-3 ms-lg-auto col-lg-6 col-md-2 col-sm-2 col-3 justify-content-around">
+
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Category</a></li>
+          <li class="nav-item col-lg-auto col-md-5 col-sm-8 col-6"><a class="nav-link position-relative" href="#">Latest
+              <span class="position-absolute top-10 start-100 translate-middle badge rounded-pill bg-danger">
+                Hot
+              </span></a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="d-flex column justify-content-center align-items-center col-lg-6 justify-content-around">
+          <!-- Search Bar -->
+          <form class="m-2" role="search">
+            <div class="d-flex column position-relative">
+              <input class="form-control rounded-pill pe-5 bg-body-tertiary" type="search" placeholder="Search Products"
+                aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass search_icon text-secondary"></i>
+            </div>
+          </form>
+          <!-- Icons -->
+          <div class="m-2">
+            <i class="p-3 border border-tertiary rounded-circle fa-solid fa-heart position-relative">
+              <span class="position-absolute top-0 badge rounded-circle bg-info">
+                02
+              </span>
+            </i>
+          </div>
+
+          <div class="m-2">
+            <i class="p-3 border border-tertiary rounded-circle fa-solid fa-cart-shopping position-relative">
+              <span class="position-absolute top-0  badge rounded-circle bg-warning">
+                07
+              </span>
+            </i>
+          </div>
+          <!-- Sign in -->
+          <button class="m-2 ps-4 pe-4 btn btn-primary rounded-pill" type="button" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Sign in</button>
+          <!-- Button trigger modal -->
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header row m-0">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Login or Signup</h1>
+                  <h6 class="modal-title fs-6" id="exampleModalLabel">Using OTP</h6>
+                  <button type="button" class="btn-close me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center my-3 mx-5 px-2">
+                  <input type="text" placeholder="Enter Phone number/Email Id" class="mb-4 py-2 form-control">
+                  <button type="button" class="btn btn-success px-5 mb-2 rounded form-control mt-3">Continue</button>
+                  <p class="small text-body-secondary px-3">By continuing, I accept TCP - AchieversIT’s Terms and
+                    Conditions & Privacy Policy
+                    This site is protected by reCAPTCHA and the Google - Privacy Policy and & Terms of Service apply.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <section class="container-fluid hero_section row mb-5">
+
+    <!-- Banner Model -->
+    <div class="col-lg-7 col-6 ps-lg-5 pt-lg-5">
+      <img class="img-fluid col-12 w-100 h-100" src="./Assets/Banner/hero_man.png" alt="">
+    </div>
+
+    <!-- Banner Contents -->
+    <div class="col-lg-5 col-6 d-flex flex-lg-row align-items-center">
+      <div class="ms-lg-4 pe-lg-4 ms-md-2 ms-0">
+        <h2 class="fst-italic text-primary discount yellow_tail">60% Discount</h2>
+        <h1 class="display-1 season">Winter Collection</h1>
+        <p class="fst-italic">Best Cloth Collection By 2024! </p>
+        <button type="button" class="btn btn-primary btn-md rounded-pill px-4 py-2 mt-2 shop_button">Shop Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Section Starts Here -->
+  <section class="pt-5">
+
+    <!-- Shop by Category -->
+    <section class="container-fluid text-center mt-5">
+      <!-- Title -->
+      <h3 class="mb-5 dm-serif display-5">Shop by Category</h3>
+      <!-- Categories -->
+      <div class="row text-center justify-content-center mb-5">
+
+        <div class="card border border-0 col-lg-4 col-md-6 col-sm-8 row justify-content-center mb-4">
+          <img class="img-fluid" src="./Assets/Category/Cat Model 1.jpg" alt="">
+          <div class="card-img-overlay row justify-content-end">
+            <div class="col-5 d-flex flex-column justify-content-center align-items-center position-relative">
+              <h4 class="dm-serif">Women's</h4>
+              <h6 class="bg-warning rounded-pill p-2 mb-4">Best New Deals</h6>
+              <h5 class="text-primary yellow_tail position-absolute top-50 pt-3 pe-4 shadow_text"><strong>New
+                  Collection</strong></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border border-0 col-lg-4 col-md-6 col-sm-8 row justify-content-center mb-4">
+          <img class="img-fluid " src="./Assets/Category/Cat Model 2.jpg" alt="">
+          <div class="card-img-overlay row justify-content-end">
+            <div class="col-5 d-flex flex-column justify-content-center align-items-center position-relative">
+              <h5 class="text-primary yellow_tail shadow_text position-absolute bottom-50 pb-4">
+                <strong>Discount!</strong>
+              </h5>
+              <h4 class="dm-serif">Winter Cloth</h4>
+              <p class="fw-medium text-secondary">New Collection</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border border-0 col-lg-4 col-md-6 col-sm-8 row justify-content-center mb-4">
+          <img class="img-fluid" src="./Assets/Category/Cat Model 3.jpg" alt="">
+          <div class="card-img-overlay row justify-content-end">
+            <div class="col-5 d-flex flex-column justify-content-center align-items-center position-relative">
+              <h4 class="dm-serif">Men's Cloth</h4>
+              <h6 class="bg-warning rounded-pill p-2 mb-4">Best New Deals</h6>
+              <h5 class="text-primary yellow_tail position-absolute top-50 pt-3 pe-4 shadow_text"><strong>New
+                  Collection</strong></h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="container pt-5">
+      <!-- Latest Products Nav -->
+      <div class="navbar navbar-expand-lg border-bottom border-2 row mx-5 mb-5">
+        <p class="col-lg-7 col-md-8 col-sm-12 dm-serif display-5">Lastest Products</p>
+
+        <ul class="nav justify-content-end col-lg-5 col-md-4 col-sm-12">
+          <li class="nav-item">
+            <a class="nav-link active text-danger" aria-current="page" href="#">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">New</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Featured</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Offers</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Product-Cards -->
+      <div class="container ps-5 pe-5">
+        <div class="row justify-content-center">
+
+          <!-- 1 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center position-relative">
+            <a href="" class="product_card">
+              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 1.png" alt="">
+              <p class="position-absolute bg-danger text-white rounded-pill top-0 ms-4 mt-4 px-3 py-1">New</p>
+              <div class="mt-3">
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-body-tertiary"></i>
+              </div>
+              <p class="product_description fw-medium mt-3 mb-2">Winter Grey T-Shirt</p>
+              <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
+            </a>
+          </div>
+
+          <!-- 2 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
+            <a href="" class="product_card">
+              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 2.png" alt="">
+              <div class="mt-3">
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+              </div>
+              <p class="product_description fw-medium mt-3 mb-2">Dress with Details</p>
+              <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
+            </a>
+          </div>
+
+          <!-- 3 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center position-relative">
+            <a href="" class="product_card">
+              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 3.png" alt="">
+              <p class="position-absolute bg-danger text-white rounded-pill top-0 ms-4 mt-4 px-3 py-1">New</p>
+              <div class="mt-3">
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-body-tertiary"></i>
+                <i class="fa-regular fa-star text-body-tertiary"></i>
+              </div>
+              <p class="product_description fw-medium mt-3 mb-2">Dress with Details</p>
+              <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
+            </a>
+          </div>
+
+          <!-- 4 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
+            <a href="" class="product_card">
+              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 4.png" alt="">
+              <div class="mt-3">
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-body-tertiary"></i>
+                <i class="fa-regular fa-star text-body-tertiary"></i>
+              </div>
+              <p class="product_description fw-medium mt-3 mb-2">Dress with Details</p>
+              <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
+            </a>
+          </div>
+
+
+          <!-- 5 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
+            <a href="" class="product_card">
+              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 5.png" alt="">
+              <div class="mt-3">
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-body-tertiary"></i>
+              </div>
+              <p class="product_description fw-medium mt-3 mb-2">Dress with Details</p>
+              <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
+            </a>
+          </div>
+
+          <!-- 6 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center position-relative">
+            <a href="" class="product_card">
+              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 6.png" alt="">
+              <p class="position-absolute bg-danger text-white rounded-pill top-0 ms-4 mt-4 px-3 py-1">New</p>
+              <div class="mt-3">
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-warning"></i>
+                <i class="fa-regular fa-star text-body-tertiary"></i>
+                <i class="fa-regular fa-star text-body-tertiary"></i>
+              </div>
+              <p class="product_description fw-medium mt-3 mb-2">Dress with Details</p>
+              <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Products section Ends -->
+
+    <!-- Model Man 1 -->
+    <section class="container-fluid my-5">
+      <section class="mx-5 model1_bg d-flex flex-row justify-content-center ">
+
+        <div class="ms-5 me-lg-5 me-sm-0 position-relative z-1">
+          <p
+            class="me-lg-2 me-md-4 mt-5 pe-md-5 pe-sm-0 model_text display-1 fw-light text_color position-absolute top-50 end-0 z-n1">
+            FASHION</p>
+          <img class="img-fluid w-100 h-100" src="./Assets/Category/Model Man 4.png" alt="">
+        </div>
+
+        <div class="me-lg-5 me-sm-0 col-5 pt-5 d-flex flex-column align-items-start justify-content-center">
+          <p class="display-4 dm-serif">Find the Best Product from our Shop</p>
+          <p class="fw-normal fs-6 h6 text-light-emphasis">Designers who are passionate on creating the NextZen Styles
+          </p>
+          <button type="button" class="px-4 py-2 mt-4 btn btn-dark btn-md rounded-pill shop_button">Shop Now</button>
+        </div>
+
+        <div class="mb-5 pb-2 d-flex flex-column align-items-center justify-content-end">
+          <img class="img-fluid col-lg-12 col-sm-8 " src="./Assets/Category/Shirts.png" alt="">
+        </div>
+      </section>
+    </section>
+    <!-- End -->
+
+    <!-- Model Man 2 -->
+    <section class="container my-5 pt-5 pb-5">
+      <section class="row pt-5 mb-5">
+        <!-- 1 -->
+        <div class=" col-4 d-flex flex-column align-items-start justify-content-around">
+          <div class="mt-5 pt-5">
+            <p class="pt-5 display-4 dm-serif ">Best Collection of the Month</p>
+            <p class="fw-normal fs-5 text-light-emphasis">Designers who are interesten crea.</p>
+            <button type="button" class="btn btn-primary btn-md rounded-pill px-4 mt-5 mb-5 shop_button">Shop Now</button>
+          </div>
+          <div class="mt-5 pt-5 ">
+            <img class="pt-5 img-fluid" src="./Assets/Collections/Jeans.png" alt="">
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="col-4 text-center">
+          <img class="img-fluid w-100 h-100" src="./Assets/Collections/Model Man 2.png" alt="">
+        </div>
+        <!-- 3 -->
+        <div class="col-4 col-4 d-flex flex-column align-items-center justify-content-end row-gap-5">
+          <div class="d-flex flex-row align-items-center justify-content-around">
+            <p class="p-md-4 p-sm-1 rounded border-0 fw-semibold fs-6 col-6 text-center change_color1">Mens Casual
+              Printed T-Shirts</p>
+            <img class="img-fluid col-lg-4 col-md-auto col-6" src="./Assets/Collections/C1-T-Shirt.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-around">
+            <p class="p-md-4 p-sm-1 rounded border-0 fw-semibold fs-6 col-6 text-center change_color1">Mens Strech Denim
+              Jeans</p>
+            <img class="img-fluid col-lg-4 col-md-auto col-6" src="./Assets/Collections/C2-Jean.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-around ">
+            <p class="p-md-4 p-sm-1 rounded border-0 fw-semibold fs-6 col-6 text-center change_color1">Mens Casual
+              Winter Jackets</p>
+            <img class="img-fluid col-lg-4 col-md-auto col-6" src="./Assets/Collections/C3-Shirt.png" alt="">
+          </div>
+        </div>
+
+      </section>
+    </section>
+    <!-- End -->
+
+    <!-- Newsletter -->
+    <section class="container-fluid my-5 ">
+      <section class="mx-5 blue_bg row justify-content-center">
+
+        <div class="d-flex flex-row flex-wrap col-md-10 col-11 justify-content-center align-items-center">
+          <div class="col-lg-5 col-md-8 col-sm-8 my-lg-5 pe-lg-5">
+            <p class="display-6 dm-serif pt-5">Get our Latest Offers News</p>
+            <p class="pb-5 fw-normal fs-5">Subscribe to our news letter</p>
+          </div>
+
+          <form class="m-2 col-lg-5 col-sm-8 mb-5" role="search">
+            <div class="d-flex column position-relative">
+              <input class="form-control rounded-pill bg-body-tertiary py-3 ps-4" type="search"
+                placeholder="Your Email Here" aria-label="Search">
+              <button type="button"
+                class="btn btn-primary btn-md rounded-pill end-0 py-3 px-lg-5 px-sm-4 position-absolute">Shop
+                Now</button>
+            </div>
+          </form>
+        </div>
+
+      </section>
+    </section>
+
+    <!--Quality and Services -->
+    <section class="container my-5 pt-5 px-5">
+      <div class="row mx-5 py-5 justify-content-between row-gap-5 ">
+        <div class="row col-lg-4 col-md-6 col-sm-12 pe-lg-5">
+          <i class="fa-solid fa-table-columns fs-2"></i>
+          <p class="h5 fw-semibold pt-4 pb-1">Free Shipping Method</p>
+          <p class="features_description text-light-emphasis">animi cupiditate perferendis quaerat labore harum
+            doloremque numquam perspiciatis ullam. Aperiam repellat ipsam ratione eius?</p>
+        </div>
+        <div class="row col-lg-4 col-md-6 col-sm-12 pe-lg-5">
+          <i class="fa-solid fa-unlock-keyhole fs-2"></i>
+          <p class="h5 fw-semibold pt-4 pb-1">Secure Payment System</p>
+          <p class="features_description text-light-emphasis">animi cupiditate perferendis quaerat labore harum
+            doloremque numquam perspiciatis ullam. Aperiam repellat ipsam ratione eius?</p>
+        </div>
+        <div class="row col-lg-4 col-md-6 col-sm-12 pe-lg-5">
+          <i class="fa-solid fa-rotate fs-2"></i>
+          <p class="h5 fw-semibold pt-4 pb-1">Easy Returns</p>
+          <p class="features_description text-light-emphasis">animi cupiditate perferendis quaerat labore harum
+            doloremque numquam perspiciatis ullam. Aperiam repellat ipsam ratione eius?</p>
+        </div>
+      </div>
+    </section>
+    <!-- End -->
+
+    <!-- Model Pictures -->
+    <section class="container-fluid my-5 py-5 text-center">
+      <div class="d-flex px-5  col-12">
+        <div class=""><img class="w-100 h-100 " src="./Assets/Models/gallery1.jpg" alt=""></div>
+        <div class="model_card"><img class="w-100 h-100 " src="./Assets/Models/gallery2.jpg" alt=""></div>
+        <div class="model_card"><img class="w-100 h-100 " src="./Assets/Models/gallery3.jpg" alt=""></div>
+        <div class="model_card"><img class="w-100 h-100 " src="./Assets/Models/gallery4.jpg" alt=""></div>
+        <div class="model_card"><img class="w-100 h-100  " src="./Assets/Models/gallery5.jpg" alt=""></div>
+      </div>
+    </section>
+
+  </section>
+  <!-- main -->
+
+  <!-- Footer -->
+  <footer class="container my-5">
+    <section class="row mx-5 py-5">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <a href=""><img class="img-fluid pe-5 pb-3" src="./Assets/Company Logo/Logo.png" alt=""></a>
+        <p class="text-secondary lh-md p-2">63, 1st Floor, 16th Main, 8th Cross BTM 1st Stage, BTM Layout, Bengaluru,
+          Karnataka 560029</p>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 ps-md-5 ps-4">
+        <p class="h5 py-2">Quick Links</p>
+        <ul class="footer_title ps-0">
+          <li><a href="" class="footer_text ">About</a></li>
+          <li><a href="" class="footer_text ">Offers & Discounts</a></li>
+          <li><a href="" class="footer_text ">Get Coupon</a></li>
+          <li><a href="" class="footer_text ">Contact US</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 ps-md-3 ps-4">
+        <p class="h5 py-2">New Products</p>
+        <ul class="footer_title ps-0">
+          <li><a href="" class="footer_text ">Woman Cloth</a></li>
+          <li><a href="" class="footer_text ">Fashion and Cosmetics</a></li>
+          <li><a href="" class="footer_text ">Men's Perfumes</a></li>
+          <li><a href="" class="footer_text ">Others Items</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 ps-lg-3 ps-md-5 ps-4">
+        <p class="h5 py-2">Support</p>
+        <ul class="footer_title ps-0">
+          <li><a href="" class="footer_text">Frequently Asked Questions</a></li>
+          <li><a href="" class="footer_text">Terms and Conditions</a></li>
+          <li><a href="" class="footer_text">Private Policy</a></li>
+          <li><a href="" class="footer_text">Report a Payment Issue</a></li>
+          <li><a href="" class="footer_text">Report any Delivery Issues</a></li>
+        </ul>
+      </div>
+
+      <!--Footer Copyrights -->
+
+    </section>
+    <section class="container d-flex flex-row flex-wrap px-5 justify-content-center">
+      <p class="col-lg-10 col-12">Copyright &#169; 2024 All right reserved | This template is made with <span
+          class="text-primary ">&#9829;</span> by Mr. K. M. Parvesh Ahmed</p>
+      <div class="col-lg-2 col-12 text-center">
+        <i class="fa-brands fa-twitter m-2"></i>
+        <i class="fa-brands fa-facebook-f m-2"></i>
+        <i class="fa-brands fa-behance m-2"></i>
+        <i class="fa-solid fa-globe m-2"></i>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>
