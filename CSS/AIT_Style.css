@@ -12,7 +12,7 @@
   text-shadow: 2px -2px white;
 }
                  /* Font Styles */
-.season,.dm-serif {
+.dm-serif {
   font-family: DM serif display;
 }
 .product_description {
@@ -21,11 +21,6 @@
 .yellow_tail {
   font-family: Yellowtail;
 }
-                  /* Category */
-.discount {
-  font-family: Kaushan Script;
-}
-
                  /* Shop Now Button */
 .shop_button:hover {
   transform: scale(1.1);
