@@ -1,0 +1,76 @@
+.search_icon{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+  }
+.hero_section{
+    background: url(./Assets/Banner/h1_hero.jpg);
+}
+.season,.dm-serif{
+  font-family: DM serif display;
+}
+.discount{
+  font-family:Kaushan Script;
+}
+.shop_button:hover{
+  transform: scale(1.1);
+}
+.yellow_tail{
+  font-family: Yellowtail;
+}
+.shadow_text{
+  text-shadow: 2px -2px white;
+}
+.product_description{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.product_card{
+  text-decoration: none;
+  color: black;
+}
+.product_img:hover{
+  box-shadow: 1px 1px 10px 1px;
+}
+.model1_bg{
+  background: url(./Assets/Category/Model\ 4\ BG.png);
+  background-size: 100% 83%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.model_text{
+  font-family: Rubik Lines;
+  transform: rotate(-90deg);
+}
+.text_color{
+  color: rgb(170, 170, 170);
+}
+.change_color1:hover{
+  background-color: rgb(92, 92, 255);
+  color: white;
+}
+.blue_bg{
+  background: url(./Assets/Collections/latest-offer_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.footer_title{
+  list-style-type: none;
+}
+.footer_text{
+  text-decoration: none;
+  color: gray;
+  line-height: 35px;
+}
+.footer_text:hover{
+  color: black;
+}
+.change_text_color{
+  color: black;
+}
+.features_description{
+  line-height: 28px;
+  text-align: justify;
+}
+.model_card{
+  margin-left: -70px;
+}
