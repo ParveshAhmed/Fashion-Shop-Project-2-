@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AIT Shop</title>
+  <title>AIT Fashion</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -26,15 +26,15 @@
 
 <body>
 
-  <!-- header 1 starts -->
+  <!-- Header 1 starts -->
   <nav class="navbar sticky-top navbar-expand-lg bg-dark">
     <div class="container-fluid">
 
       <div class="navbar-nav d-flex flex-row">
-        <img class="ms-3" src="./Assets/Icons/header_flag1.png" alt="USA Flag">
+        <img class="ms-3" src="./Assets/Icons/header_flag1.png" alt="US Flag">
         <select class="bg-dark text-white ms-3 border border-0" aria-label="Default select example">
-          <option selected>IND</option>
-          <option value="2">PAK</option>
+          <option selected>US</option>
+          <option value="2">IND</option>
           <option value="3">AUS</option>
         </select>
         <div class="ms-3 text-white"><span>+91-9003420888</span></div>
@@ -90,7 +90,8 @@
 
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Category</a></li>
-          <li class="nav-item col-lg-auto col-md-5 col-sm-8 col-6"><a class="nav-link position-relative" href="#">Latest
+          <li class="nav-item col-lg-auto col-md-5 col-sm-8 col-6">
+            <a class="nav-link position-relative" href="#">Latest
               <span class="position-absolute top-10 start-100 translate-middle badge rounded-pill bg-danger">
                 Hot
               </span></a>
@@ -106,10 +107,10 @@
             <div class="d-flex column position-relative">
               <input class="form-control rounded-pill pe-5 bg-body-tertiary" type="search" placeholder="Search Products"
                 aria-label="Search">
-              <i class="fa-solid fa-magnifying-glass search_icon text-secondary"></i>
+              <i class="fa-solid fa-magnifying-glass search_icon text-secondary position-absolute"></i>
             </div>
           </form>
-          <!-- Icons -->
+          <!-- Fav & Cart Icon -->
           <div class="m-2">
             <i class="p-3 border border-tertiary rounded-circle fa-solid fa-heart position-relative">
               <span class="position-absolute top-0 badge rounded-circle bg-info">
@@ -125,17 +126,15 @@
               </span>
             </i>
           </div>
-          <!-- Sign in -->
+          <!-- Sign in Button and Trigger Modal -->
           <button class="m-2 ps-4 pe-4 btn btn-primary rounded-pill" type="button" data-bs-toggle="modal"
             data-bs-target="#exampleModal">Sign in</button>
-          <!-- Button trigger modal -->
 
-          <!-- Modal -->
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header row m-0">
+            <div class="modal-dialog ">
+              <div class="modal-content modal_body_bg">
+                <div class="modal-header row m-0 modal_head_bg">
                   <h1 class="modal-title fs-5" id="exampleModalLabel">Login or Signup</h1>
                   <h6 class="modal-title fs-6" id="exampleModalLabel">Using OTP</h6>
                   <button type="button" class="btn-close me-2" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -143,7 +142,7 @@
                 <div class="modal-body text-center my-3 mx-5 px-2">
                   <input type="text" placeholder="Enter Phone number/Email Id" class="mb-4 py-2 form-control">
                   <button type="button" class="btn btn-success px-5 mb-2 rounded form-control mt-3">Continue</button>
-                  <p class="small text-body-secondary px-3">By continuing, I accept TCP - AchieversIT’s Terms and
+                  <p class="small text-light px-3">By continuing, I accept TCP - AchieversIT’s Terms and
                     Conditions & Privacy Policy
                     This site is protected by reCAPTCHA and the Google - Privacy Policy and & Terms of Service apply.
                   </p>
@@ -162,7 +161,7 @@
 
     <!-- Banner Model -->
     <div class="col-lg-7 col-6 ps-lg-5 pt-lg-5">
-      <img class="img-fluid col-12 w-100 h-100" src="./Assets/Banner/hero_man.png" alt="">
+      <img class="img-fluid col-12 w-100 h-100" src="./Assets/Banner/hero_man.png" alt="Hero Girl Image">
     </div>
 
     <!-- Banner Contents -->
@@ -187,7 +186,7 @@
       <div class="row text-center justify-content-center mb-5">
 
         <div class="card border border-0 col-lg-4 col-md-6 col-sm-8 row justify-content-center mb-4">
-          <img class="img-fluid" src="./Assets/Category/Cat Model 1.jpg" alt="">
+          <img class="img-fluid" src="./Assets/Category/Cat Model 1.jpg" alt="Model Image 1">
           <div class="card-img-overlay row justify-content-end">
             <div class="col-5 d-flex flex-column justify-content-center align-items-center position-relative">
               <h4 class="dm-serif">Women's</h4>
@@ -199,7 +198,7 @@
         </div>
 
         <div class="card border border-0 col-lg-4 col-md-6 col-sm-8 row justify-content-center mb-4">
-          <img class="img-fluid " src="./Assets/Category/Cat Model 2.jpg" alt="">
+          <img class="img-fluid " src="./Assets/Category/Cat Model 2.jpg" alt="Model Image 2">
           <div class="card-img-overlay row justify-content-end">
             <div class="col-5 d-flex flex-column justify-content-center align-items-center position-relative">
               <h5 class="text-primary yellow_tail shadow_text position-absolute bottom-50 pb-4">
@@ -212,7 +211,7 @@
         </div>
 
         <div class="card border border-0 col-lg-4 col-md-6 col-sm-8 row justify-content-center mb-4">
-          <img class="img-fluid" src="./Assets/Category/Cat Model 3.jpg" alt="">
+          <img class="img-fluid" src="./Assets/Category/Cat Model 3.jpg" alt="Model Image 3">
           <div class="card-img-overlay row justify-content-end">
             <div class="col-5 d-flex flex-column justify-content-center align-items-center position-relative">
               <h4 class="dm-serif">Men's Cloth</h4>
@@ -255,7 +254,7 @@
           <!-- 1 -->
           <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center position-relative">
             <a href="" class="product_card">
-              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 1.png" alt="">
+              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 1.png" alt="T-Shirt Image 1">
               <p class="position-absolute bg-danger text-white rounded-pill top-0 ms-4 mt-4 px-3 py-1">New</p>
               <div class="mt-3">
                 <i class="fa-regular fa-star text-warning"></i>
@@ -272,7 +271,7 @@
           <!-- 2 -->
           <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
             <a href="" class="product_card">
-              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 2.png" alt="">
+              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 2.png" alt="T-Shirt Image 2">
               <div class="mt-3">
                 <i class="fa-regular fa-star text-warning"></i>
                 <i class="fa-regular fa-star text-warning"></i>
@@ -280,7 +279,7 @@
                 <i class="fa-regular fa-star text-warning"></i>
                 <i class="fa-regular fa-star text-warning"></i>
               </div>
-              <p class="product_description fw-medium mt-3 mb-2">Dress with Details</p>
+              <p class="product_description fw-medium mt-3 mb-2">Casual Green T-Shirt</p>
               <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
             </a>
           </div>
@@ -288,7 +287,7 @@
           <!-- 3 -->
           <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center position-relative">
             <a href="" class="product_card">
-              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 3.png" alt="">
+              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 3.png" alt="T-Shirt Image 3">
               <p class="position-absolute bg-danger text-white rounded-pill top-0 ms-4 mt-4 px-3 py-1">New</p>
               <div class="mt-3">
                 <i class="fa-regular fa-star text-warning"></i>
@@ -297,7 +296,7 @@
                 <i class="fa-regular fa-star text-body-tertiary"></i>
                 <i class="fa-regular fa-star text-body-tertiary"></i>
               </div>
-              <p class="product_description fw-medium mt-3 mb-2">Dress with Details</p>
+              <p class="product_description fw-medium mt-3 mb-2">Winter Sweat Shirt</p>
               <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
             </a>
           </div>
@@ -305,7 +304,7 @@
           <!-- 4 -->
           <div class="col-lg-4 col-md-6 col-sm-12 mb-5 text-center">
             <a href="" class="product_card">
-              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 4.png" alt="">
+              <img class="img-fluid product_img rounded" src="./Assets/Category/Product 4.png" alt="Lined Shorts">
               <div class="mt-3">
                 <i class="fa-regular fa-star text-warning"></i>
                 <i class="fa-regular fa-star text-warning"></i>
@@ -313,7 +312,7 @@
                 <i class="fa-regular fa-star text-body-tertiary"></i>
                 <i class="fa-regular fa-star text-body-tertiary"></i>
               </div>
-              <p class="product_description fw-medium mt-3 mb-2">Dress with Details</p>
+              <p class="product_description fw-medium mt-3 mb-2">Lined Casual Shorts</p>
               <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
             </a>
           </div>
@@ -330,7 +329,7 @@
                 <i class="fa-regular fa-star text-warning"></i>
                 <i class="fa-regular fa-star text-body-tertiary"></i>
               </div>
-              <p class="product_description fw-medium mt-3 mb-2">Dress with Details</p>
+              <p class="product_description fw-medium mt-3 mb-2">Black Casual Trousers</p>
               <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
             </a>
           </div>
@@ -347,7 +346,7 @@
                 <i class="fa-regular fa-star text-body-tertiary"></i>
                 <i class="fa-regular fa-star text-body-tertiary"></i>
               </div>
-              <p class="product_description fw-medium mt-3 mb-2">Dress with Details</p>
+              <p class="product_description fw-medium mt-3 mb-2">Party wear Men's Suit</p>
               <p class="h6">$40.00 <del class="text-danger ms-3 mb-2"> $60.00</del></p>
             </a>
           </div>
@@ -359,13 +358,13 @@
 
     <!-- Model Man 1 -->
     <section class="container-fluid my-5">
-      <section class="mx-5 model1_bg d-flex flex-row justify-content-center ">
+      <section class="mx-sm-5 model1_bg d-flex flex-row justify-content-center ">
 
         <div class="ms-5 me-lg-5 me-sm-0 position-relative z-1">
           <p
             class="me-lg-2 me-md-4 mt-5 pe-md-5 pe-sm-0 model_text display-1 fw-light text_color position-absolute top-50 end-0 z-n1">
             FASHION</p>
-          <img class="img-fluid w-100 h-100" src="./Assets/Category/Model Man 4.png" alt="">
+          <img class="img-fluid w-100 h-100" src="./Assets/Category/Model Man 4.png" alt="Model Man Image 1">
         </div>
 
         <div class="me-lg-5 me-sm-0 col-5 pt-5 d-flex flex-column align-items-start justify-content-center">
@@ -376,7 +375,7 @@
         </div>
 
         <div class="mb-5 pb-2 d-flex flex-column align-items-center justify-content-end">
-          <img class="img-fluid col-lg-12 col-sm-8 " src="./Assets/Category/Shirts.png" alt="">
+          <img class="img-fluid col-lg-12 col-sm-8 " src="./Assets/Category/Shirts.png" alt="Shirts Image">
         </div>
       </section>
     </section>
@@ -394,29 +393,31 @@
               Now</button>
           </div>
           <div class="mt-5 pt-5 ">
-            <img class="pt-5 img-fluid" src="./Assets/Collections/Jeans.png" alt="">
+            <img class="pt-5 img-fluid" src="./Assets/Collections/Jeans.png" alt="Jeans Image">
           </div>
         </div>
         <!-- 2 -->
         <div class="col-4 text-center">
-          <img class="img-fluid w-100 h-100" src="./Assets/Collections/Model Man 2.png" alt="">
+          <img class="img-fluid w-100 h-100" src="./Assets/Collections/Model Man 2.png" alt="Model Man Image 2">
         </div>
         <!-- 3 -->
         <div class="col-4 col-4 d-flex flex-column align-items-center justify-content-end row-gap-5">
           <div class="d-flex flex-row align-items-center justify-content-around">
             <p class="p-md-4 p-sm-1 rounded border-0 fw-semibold fs-6 col-6 text-center change_color1">Mens Casual
               Printed T-Shirts</p>
-            <img class="img-fluid col-lg-4 col-md-auto col-6" src="./Assets/Collections/C1-T-Shirt.png" alt="">
+            <img class="img-fluid col-lg-4 col-md-auto col-6" src="./Assets/Collections/C1-T-Shirt.png"
+              alt="T-Shirt Image">
           </div>
           <div class="d-flex flex-row align-items-center justify-content-around">
             <p class="p-md-4 p-sm-1 rounded border-0 fw-semibold fs-6 col-6 text-center change_color1">Mens Strech Denim
               Jeans</p>
-            <img class="img-fluid col-lg-4 col-md-auto col-6" src="./Assets/Collections/C2-Jean.png" alt="">
+            <img class="img-fluid col-lg-4 col-md-auto col-6" src="./Assets/Collections/C2-Jean.png" alt="Jean Pant">
           </div>
           <div class="d-flex flex-row align-items-center justify-content-around ">
             <p class="p-md-4 p-sm-1 rounded border-0 fw-semibold fs-6 col-6 text-center change_color1">Mens Casual
               Winter Jackets</p>
-            <img class="img-fluid col-lg-4 col-md-auto col-6" src="./Assets/Collections/C3-Shirt.png" alt="">
+            <img class="img-fluid col-lg-4 col-md-auto col-6" src="./Assets/Collections/C3-Shirt.png"
+              alt="Jacket Image">
           </div>
         </div>
 
@@ -426,7 +427,7 @@
 
     <!-- Newsletter -->
     <section class="container-fluid my-5 ">
-      <section class="mx-5 blue_bg row justify-content-center">
+      <section class="mx-sm-5 mx-1 blue_bg row justify-content-center">
 
         <div class="d-flex flex-row flex-wrap col-md-10 col-11 justify-content-center align-items-center">
           <div class="col-lg-5 col-md-8 col-sm-8 my-lg-5 pe-lg-5">
@@ -434,23 +435,23 @@
             <p class="pb-5 fw-normal fs-5">Subscribe to our news letter</p>
           </div>
 
-          <form class="m-2 col-lg-5 col-sm-8 mb-5" role="search">
+          <form class="m-2 col-lg-5 col-sm-8 col-11 mb-5" role="search">
             <div class="d-flex column position-relative">
-              <input class="form-control rounded-pill bg-body-tertiary py-3 ps-4" type="search"
+              <input class="form-control rounded-pill bg-body-tertiary py-md-3 py-2 ps-4" type="search"
                 placeholder="Your Email Here" aria-label="Search">
               <button type="button"
-                class="btn btn-primary btn-md rounded-pill end-0 py-3 px-lg-5 px-sm-4 position-absolute">Shop
-                Now</button>
+                class="btn btn-primary btn-md rounded-pill end-0 py-md-3 py-2 px-lg-4 px-sm-4 position-absolute">
+                Shop Now</button>
             </div>
           </form>
-        </div>
 
+        </div>
       </section>
     </section>
 
     <!--Quality and Services -->
     <section class="container my-5 pt-5 px-5">
-      <div class="row mx-5 py-5 justify-content-between row-gap-5 ">
+      <div class="row mx-sm-5 py-5 justify-content-between row-gap-5 ">
         <div class="row col-lg-4 col-md-6 col-sm-12 pe-lg-5">
           <i class="fa-solid fa-table-columns fs-2"></i>
           <p class="h5 fw-semibold pt-4 pb-1">Free Shipping Method</p>
@@ -475,17 +476,17 @@
 
     <!-- Model Pictures -->
     <section class="container-fluid my-5 py-5 text-center">
-      <div class="d-flex px-5  col-12">
-        <div class=""><img class="w-100 h-100 " src="./Assets/Models/gallery1.jpg" alt=""></div>
-        <div class="model_card"><img class="w-100 h-100 " src="./Assets/Models/gallery2.jpg" alt=""></div>
-        <div class="model_card"><img class="w-100 h-100 " src="./Assets/Models/gallery3.jpg" alt=""></div>
-        <div class="model_card"><img class="w-100 h-100 " src="./Assets/Models/gallery4.jpg" alt=""></div>
-        <div class="model_card"><img class="w-100 h-100  " src="./Assets/Models/gallery5.jpg" alt=""></div>
+      <div class="d-flex px-sm-5 col-12">
+        <div class=""><img class="w-100 h-100 " src="./Assets/Models/gallery1.jpg" alt="Model 1"></div>
+        <div class="model_card"><img class="w-100 h-100 " src="./Assets/Models/gallery2.jpg" alt="Model 2"></div>
+        <div class="model_card"><img class="w-100 h-100 " src="./Assets/Models/gallery3.jpg" alt="Model 3"></div>
+        <div class="model_card"><img class="w-100 h-100 " src="./Assets/Models/gallery4.jpg" alt="Model 4"></div>
+        <div class="model_card"><img class="w-100 h-100  " src="./Assets/Models/gallery5.jpg" alt="Model 5"></div>
       </div>
     </section>
 
   </section>
-  <!-- main -->
+  <!-- main section ends -->
 
   <!-- Footer -->
   <footer class="container my-5">
@@ -541,6 +542,7 @@
       </div>
     </section>
   </footer>
+
 </body>
 
 </html>

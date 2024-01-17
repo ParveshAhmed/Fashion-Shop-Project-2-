@@ -1,76 +1,99 @@
-.search_icon{
-    position: absolute;
-    top: 10px;
-    right: 15px;
-  }
-.hero_section{
-    background: url(./hero\ bg.jpg);
+                  /* Header 1 */
+.search_icon {
+  position: absolute;
+  top: 10px;
+  right: 15px;
 }
-.season,.dm-serif{
-  font-family: DM serif display;
+                  /* Banner */
+.hero_section {
+  background: url(./hero\ bg.jpg);
 }
-.discount{
-  font-family:Kaushan Script;
-}
-.shop_button:hover{
-  transform: scale(1.1);
-}
-.yellow_tail{
-  font-family: Yellowtail;
-}
-.shadow_text{
+.shadow_text {
   text-shadow: 2px -2px white;
 }
-.product_description{
+                 /* Font Styles */
+.season,.dm-serif {
+  font-family: DM serif display;
+}
+.product_description {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.product_card{
+.yellow_tail {
+  font-family: Yellowtail;
+}
+                  /* Category */
+.discount {
+  font-family: Kaushan Script;
+}
+
+                 /* Shop Now Button */
+.shop_button:hover {
+  transform: scale(1.1);
+}
+                   /* Products */
+.product_card {
   text-decoration: none;
   color: black;
 }
-.product_img:hover{
+.product_img:hover {
   box-shadow: 1px 1px 10px 1px;
 }
-.model1_bg{
+                  /* Model Man 1 */
+.model1_bg {
   background: url(./model\ man\ 1\ bg.png);
   background-size: 100% 83%;
   background-repeat: no-repeat;
   background-position: bottom;
 }
-.model_text{
+.model_text {
   font-family: Rubik Lines;
   transform: rotate(-90deg);
 }
-.text_color{
+.text_color {
   color: rgb(170, 170, 170);
 }
-.change_color1:hover{
+                    /* Model Man 2 */
+.change_color1:hover {
   background-color: rgb(92, 92, 255);
   color: white;
 }
-.blue_bg{
+                    /* Newsletter Offers */
+.blue_bg {
   background: url(./newsletter\ bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.footer_title{
+                        /* Footer */
+.footer_title {
   list-style-type: none;
 }
-.footer_text{
+.footer_text {
   text-decoration: none;
   color: gray;
   line-height: 35px;
 }
-.footer_text:hover{
+.footer_text:hover {
   color: black;
 }
-.change_text_color{
+.change_text_color {
   color: black;
 }
-.features_description{
+                   /* Q & S */
+.features_description {
   line-height: 28px;
   text-align: justify;
 }
-.model_card{
+                 /* Model Card Images */
+.model_card {
   margin-left: -70px;
+}
+.modal_head_bg{
+  background: url(./Welcome\ BG2.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.modal_body_bg{
+  background: url(./Modal\ Body\ BG.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
 }
