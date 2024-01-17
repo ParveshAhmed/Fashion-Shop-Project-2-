@@ -4,7 +4,7 @@
     right: 15px;
   }
 .hero_section{
-    background: url(./Assets/Banner/h1_hero.jpg);
+    background: url(./hero\ bg.jpg);
 }
 .season,.dm-serif{
   font-family: DM serif display;
@@ -32,7 +32,7 @@
   box-shadow: 1px 1px 10px 1px;
 }
 .model1_bg{
-  background: url(./Assets/Category/Model\ 4\ BG.png);
+  background: url(./model\ man\ 1\ bg.png);
   background-size: 100% 83%;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -49,7 +49,7 @@
   color: white;
 }
 .blue_bg{
-  background: url(./Assets/Collections/latest-offer_bg.png);
+  background: url(./newsletter\ bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
